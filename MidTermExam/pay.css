@@ -1,0 +1,91 @@
+/*************************************************************************
+
+          Filename: 	       payday.html
+          Author: 	           Alfredo Granado
+          Date:		           10/28/2016
+          Course name:         Web Programing
+          Course number:       CSC322
+          assigment:           Mid Term
+          Supporting Files:    styles.css, JavaScript, html
+*************************************************************************/
+
+table {
+    width: 88%;
+	float: right;
+}
+
+h2, h1, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: #996666;
+}
+
+h2 {
+	float:right;
+}
+
+td {
+    font-family: "Courier New", Courier, mono;
+    font-size: medium;
+    font-weight: bold;
+    color: #996666;
+    background-color: #EAEAEA;
+    text-align: left;
+}
+
+hr {
+    font-weight: bolder;
+    color: #996666;
+    background-color: #996666;
+}
+
+body {
+    background-color: #EAEAEA;
+}
+
+.bordr {
+    width: 25%;
+    border-top: thin solid #666666;
+    border-right: thin solid #666666;
+    border-bottom: thin solid #666666;
+    border-left: thin none #666666;
+}
+
+.bordrlft {
+    width: 25%;
+    border-top: thin solid #666666;
+    border-right: thin none #666666;
+    border-bottom: thin solid #666666;
+    border-left: thin solid #666666;
+	vertical-align: top;
+}
+
+.smallcell {
+    width: 15%;
+}
+
+.bigcell {
+    width: 35%;
+}
+/*table {
+    color:red;
+}*/
+.rght {
+    text-align: right;
+}
+
+footer{
+    color: #eaeaea;
+    position:absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  
+  }
+footer h6{
+    display: inline-block;
+    margin: 10px;
+}

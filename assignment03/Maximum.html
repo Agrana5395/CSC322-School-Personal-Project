@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="description" content="School homework and assigments for web programing JavaScript to calculate the maximunm number"/>
+
+    <title>Squares and Cubes using alert</title>
+
+    <!--
+
+        Filename: 	    Maximum
+
+        Author: 	    Alfredo Granado
+
+        Date:		    10/15/2016
+
+        Course name:    Web Programing
+
+        Course number:  CSC322
+
+        assigment:      Week3 assigment3
+
+        
+
+    -->
+</head>
+<body>
+    <header><h1><a href="../index.php">home</a></h1></header>
+    <script type="text/javascript">
+        var firstNumber;
+        var secondNumber;
+        var thirdNumber;
+        var maximumNumber;
+
+        firstNumber = prompt(" ", "Please insert the first number here:");
+        secondNumber = prompt(" ", "Please insert the second number here:");
+        thirdNumber = prompt(" ", "Please insert the third number here:");
+
+        maximumNumber = Math.max(Math.max(firstNumber, secondNumber), thirdNumber);
+        document.write("The largest Number is : " + maximumNumber);
+
+    </script>
+
+</body>
+</html>

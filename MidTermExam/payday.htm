@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8" />
+        <meta name="CSC322 Web Programing index" content="TEXT,HTML,CSS, JavaScript" />
+        <meta name="keywords" content="calculator, payday, school, work, mid, term  web, programming" />
+        <meta name="description" content="The Mid term exam " />
+        <title>Paycheck Calculator</title>
+
+        <!--
+
+          Filename: 	       payday.html
+          Author: 	           Alfredo Granado
+          Date:		           10/28/2016
+          Course name:         Web Programing
+          Course number:       CSC322
+          assigment:           Mid Term
+          Supporting Files:    styles.css, JavaScript, html
+
+      -->
+
+
+        <link href="pay.css" rel="stylesheet" type="text/css" />
+        <!-- <link href="Styles/IndexStyles/styles.css" rel="stylesheet" type="text/css" /> -->
+        <!-- <link href="/assignment01/styles/styles.css" rel="stylesheet" type="text/css" /> -->
+
+
+    </head>
+
+
+
+    <body>
+
+        <form name="paycheck" onclick="startform()">
+            <table>
+                <tr>
+                    <td colspan="2"><h1>Your Paycheck Calculator</h1></td>
+                    <!-- FORM DATE -->
+                    <td colspan="2">
+                        <h2>
+                            Date: <input class="date" name="formdate" size="10" id="mydate">
+                        </h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        This Paycheck Calculator has been provided for you by your
+                        Human Resources Department. You can use it to figure out your upcoming paycheck
+                        or to see what impact the following changes would make on your paycheck: if
+                        you change the number of dependents on you W-2, if you increase or decrease your
+                        working hours, or if you get a raise. <br />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4"><hr /></td>
+                </tr>
+                <tr>
+                    <td class="smallcell">&nbsp;</td>
+                    <td class="bordrlft"><p class="rght">Hourly Pay Rate:<br /></p></td>
+                    <td class="bordr"><input type="number" name="payrate" onchange="minInput()" ></td>
+                    <td class="bigcell">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="smallcell">&nbsp;</td>
+                    <td class="bordrlft">
+                        <p class="rght">
+                            Number of hours <br />
+                            worked this week:
+                        </p>
+                    </td>
+                    <td class="bordr"><input type="number" name="hours" onchange="minInput()" ></td>
+                    <td class="bigcell">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="smallcell">&nbsp;</td>
+                    <td class="bordrlft">
+                        <p class="rght">
+                            How many <br />
+                            dependents do<br /> you claim on <br />your taxes?
+                        </p>
+                    </td>
+                    <td class="bordr">
+                        <input type="radio" name="tax0" value="zero" onclick="tax_percent();">0<br />
+                        <input type="radio" name="tax1" value="one" onclick="tax_percent();">1<br />
+                        <input type="radio" name="tax2" value="two" onclick="tax_percent();">2<br />
+                        <input type="radio" name="tax3" value="threefour" onclick="tax_percent();">3 - 4<br />
+                        <input type="radio" name="tax4" value="fivesix" onclick="tax_percent();">5 - 6<br />
+                        <input type="radio" name="tax5" value="oversix" onclick="tax_percent();">more than 6<br />
+                    </td>
+                    <td class="bigcell">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan="4"><hr /></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="rght">Your tax rate is: </td>
+                    <td colspan="2"><input type="text" name="feedback" value="" size="20"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="rght">Your paycheck will be: </td>
+                    <td colspan="2"><input type="text" name="feedback3" value="" size="20" id="feedback03"></td>
+                </tr>
+                <tr>
+                    <td class="smallcell">&nbsp;</td>
+                    <td colspan="2" class="rght">
+                        <!-- here is the reset buttons-->
+                        <p> <input type="reset" value="clear" name="reset" onclick="return resetConf()"></p>
+                    </td>
+                    <td class="smallcell">&nbsp;</td>
+                </tr>
+            </table>
+        </form>
+        <script src="midterm.js" type="text/javascript"></script>
+		
+		<footer>
+			<h6><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fdev.cictspace.net%2FPLEE5193%2FMidTermExam%2Fpayday.htm">HTML Validation </a></h6>
+
+           <h6><a href="http://jigsaw.w3.org/css-validator/check/referer">CSS Validator</a></h6>
+
+		</footer>
+    </body>
+	
+</html>

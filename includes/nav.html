@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="CSC322 Web Programing index" content="TEXT,HTML,CSS" />
+    <meta name="keywords" content="Books Exchange, school, work, web, programming" />
+    <meta name="description" content="School homework and assigments for web programing" />
+
+    <title>Nav for the index page </title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" />
+    <!--
+
+        Filename: 	    index.html
+
+        Author: 	    Alfredo Granado
+
+        Date:		    09/26/2016
+
+        Course name:    Web Programing
+
+        Course number:  CSC322
+
+        assigment:      index page
+
+        Supporting Files: styles.css
+
+    -->
+    <link href="Styles/IndexStyles/styles.css" rel="stylesheet" type="text/css" />
+    <script src="JQuery/jquery-3.1.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="test.js"></script>
+    <!-- <link href="/assignment01/styles/styles.css" rel="stylesheet" type="text/css" /> -->
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="../index.php">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li>
+                    <a href="#">Categories<i class='fa fa-angle-down'></i></a>
+                    <ul>
+                        <li><a href="#">Assigments</a></li>
+                        <li><a href="assignment05/bootstrapPage/resume.html">Resume </a></li>
+                        <li><a href="#">Contact Me</a></li>
+                    </ul>
+                </li>
+                <li class='sub-menu'>
+                    <a href="#">Assignments<i class='fa fa-angle-down'></i></a>
+
+                    <ul>
+                        <li><a href="assignment01/TreeBranches.php">Exercise 2.13 Tree Branches</a></li>
+                        <li><a href="assignment01/LightsBulbs.php">Exercise 2.14 Bulbs Store</a></li>
+                        <li><a href="assignment02/exercise3.5/KyParagraps.html">Exercise 3.5 KY Paragraps</a>  </li>
+                        <li><a href="assignment02/exercise3.7/CarList.html">Exercise 3.7 Car List</a> </li>
+                        <li><a href="assignment02/WebsiteUpdate/UpdatedCict.html">Website Updated</a> </li>
+                        <li><a href="assignment03/Powers.html">Exercise 4.1 - Powers </a></li>
+                        <li><a href="assignment03/Maximum.html">Exercise 4.1 - Maximum </a> </li>
+                        <li><a href="assignment03/Enames.html">Exercise 4.9 - Enames </a> </li>
+                        <li><a href="assignment03/TstNamehtml.html">Exercise 4.12 - TstName </a> </li>
+                        <li><a href="assignment03/Idea.html">Idea (TstName V1.2)</a></li>
+                        <li><a href="assignment04/Ex5_5.html">Exercise 5.5 - Groceries</a></li>
+                        <li><a href="assignment04/MadLib.html">Mad Lib Game</a></li>
+                        <li><a href="assignment04/SlideShow.html">SlideShow</a></li>
+                        <li><a href="MidTermExam/payday.htm">Midterm Exam(payday)</a></li>
+                        <li><a href="assignment06/BulbPrice.php">Exercise 9.10 - Bulb Shopping </a></li>
+                        <li><a href="assignment06/MusicForm.php"> Exercise 9.11 - Music Form</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+   
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+$('nav li').hover(
+  function() {
+	  $('ul', this).stop().slideDown(200);
+  },
+	function() {
+    $('ul', this).stop().slideUp(200);
+  }
+);
+    </script>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Ex5_5</title>
+	<meta charset="utf-8" />
+    <script type="text/javascript" src="Scrips/Ex5_5.js"></script>
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="../index.php"> Home </a>
+        </h1>
+    </header>
+    <form action="">
+        <h3> Fruit Prices </h3>
+
+        <!-- A bordered table for item orders -->
+
+        <table>
+
+            <!-- First, the column headings -->
+
+            <tr>
+                <th> Fruits </th>
+                <th> Prices </th>
+                <th> Quantity </th>
+                <th> Total Fruits Price</th>
+            </tr>
+
+            <!-- Now, the table data entries -->
+            
+            <!-- Calculate prices in realtime I have to put oninput in the form i want to get the value from.
+    //I was trying to use on change and then do the math and did not work becouse onchange works in the same imput text
+    //I figure out (after 3.5 on google research) that in order to to get values from one <input> or form ,
+    // and shows the resoult in another <imput> or form the use of onchange wont work.  -->
+
+            <tr>
+                <th> Apple (each) </th>
+                <td> $0.59 </td>
+                <td>
+                    <input type="text" id="apple"
+                           size="2" oninput="calApple()" />
+                </td>
+                <td>
+                    <input type="text" id="applePrice"
+                           size="5" onfocus="this.blur();" />
+                </td>
+            </tr>
+            <tr>
+                <th> Orange (each) </th>
+                <td> $0.49 </td>
+                <td>
+                    <input type="text" id="orange"
+                           size="2" oninput="calOrange()" />
+                </td>
+                <td>
+                    <input type="text" id="orangePrice"
+                           size="5" onfocus="this.blur()"/>
+                </td>
+            </tr>
+            <tr>
+                <th> Banana (each) </th>
+                <td> $0.39 </td>
+                <td>
+                    <input type="text" id="banana"
+                           size="2" oninput="calBanana()" />
+                </td>
+                <td>
+                    <input type="text" id="bananaPrice"
+                           size="5" onfocus="this.blur()" />
+                </td>
+            </tr>
+        </table>
+
+        <!-- Button for precomputation of the total cost -->
+
+        <p>
+            <input type="button" value="Total Cost"
+                   onclick="computeCost();" />
+            <input type="text" size="5" id="cost"
+                   onfocus="this.blur();" />
+        </p>
+
+        <!-- The submit and reset buttons -->
+
+        <p>
+            <input type="submit" value="Submit Order" />
+            <input type="reset" value="Clear Order Form" />
+        </p>
+    </form>
+</body>
+</html>

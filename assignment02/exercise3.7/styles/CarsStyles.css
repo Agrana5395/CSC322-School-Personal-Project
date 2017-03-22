@@ -1,0 +1,36 @@
+﻿body {
+    text-align: left;
+    margin-left: 120px;
+}
+
+
+section ol {
+    list-style-type: upper-roman;
+}
+
+    section ol ol {
+        list-style-type: upper-alpha;
+      
+    }
+
+        section ol ol ol {
+            list-style-type: decimal;
+           
+        }
+
+.compact{
+        background-color: pink;
+}
+
+.midsize{
+      background-color: blue;
+}
+
+.sport{
+background-color: red;
+}
+footer p {
+    align-content: center;
+    position: center;
+    text-align: center;
+}

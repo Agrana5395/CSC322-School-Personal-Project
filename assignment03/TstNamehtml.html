@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="School homework and assigments for web programing JavaScript to calculate the maximunm number" />
+
+    <title>Squares and Cubes using alert</title>
+
+    <!--
+
+        Filename: 	    TstName
+
+        Author: 	    Alfredo Granado
+
+        Date:		    10/15/2016
+
+        Course name:    Web Programing
+
+        Course number:  CSC322
+
+        assigment:      Week3 assigment3
+
+
+    -->
+</head>
+
+<body>
+    <header><h1><a href="../index.php">home</a></h1></header>
+
+    <script type="text/javascript">
+        var nameInput = window.prompt("Please enter your name. Because compatibility issues you have to put your last name then your firs name and the first letter of the middle name. Thanks!");
+        result = tst_name(nameInput) 
+
+        function tst_name(str) {
+            var pattern = /^[A-Z][a-z]+,[ ][A-Z][a-z]+[ ][A-Z]$/;
+            if (str.match(pattern)) { alert('true'); }
+            else { alert('false'); }
+        }
+    </script>
+</body>
+</html>

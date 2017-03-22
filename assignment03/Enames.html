@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Enames</title>
+    <meta charset="utf-8" />
+      <meta name="description" content="School homework and assigments for web programing JavaScript look for the end 2 leters"/>
+    <!--
+
+        Filename: 	    Enames
+
+        Author: 	    Alfredo Granado
+
+        Date:		    10/15/2016
+
+        Course name:    Web Programing
+
+        Course number:  CSC322
+
+        assigment:      Week3 assigment3
+
+        
+
+    -->
+
+</head>
+<body>
+    <header><h1><a href="../index.php">home</a></h1></header>
+    <script type="text/javascript">
+
+        var new_names = new Array("Pedie", "Tomy", "Miata", "Yankees", "Clooney", "Fredie", "Crazy", "cie", "Yuyo");
+        result = e_names(new_names);
+        document.write("The number of special names is: " + result + "<br/>");
+
+        function e_names(names) {
+            var name_list = names.length, index, count = 0;
+
+
+            // Loop to use pattern matching to produce the count
+
+            for (index = 0; index < name_list ; index++) {
+                search1 = names[index].search(/ie/);
+                search2 = names[index].search(/y/);
+                if (search1 + search2 > -2)
+                    count++;
+            }
+            return count;
+        }
+
+
+    </script>
+</body>
+</html>

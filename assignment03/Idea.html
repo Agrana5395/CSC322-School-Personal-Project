@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="School homework and assigments for web programing JavaScript to this Idea makes sense" />
+
+    <title>Squares and Cubes using alert</title>
+
+    <!--
+
+        Filename: 	    Idea
+
+        Author: 	    Alfredo Granado
+
+        Date:		    10/15/2016
+
+        Course name:    Web Programing
+
+        Course number:  CSC322
+
+        assigment:      Week3 assigment3
+
+
+    -->
+
+</head>
+<body>
+    <header><h1><a href="../index.php">home</a></h1></header>
+    <script type="text/javascript">
+
+        var firstName = window.prompt("Can you put the first mane please?" + "");
+        var secondName = window.prompt("Can you put your Last Name please?" + " ");
+        var midelName = window.prompt("Can you put the initial of the midel name Please?" + "");
+            grabName(firstName , secondName, midelName);
+      
+
+        alert("By the Way, You have a cute name" + ":" + secondName +","+ " " + firstName + " "+ midelName + " ");
+    
+
+        function grabName(Name) {
+            var pattern = /[A-Za-z] + [^0-9]/
+            if (Name.match(pattern)) { alert(" Yeah that is true Great job"); }
+            else { alert("Your imput is False. Can you please read the question and Try again?"); }
+             }
+    </script>
+</body>
+</html>

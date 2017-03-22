@@ -1,0 +1,470 @@
+/*
+
+	Filename:	styles.css
+
+	Author: 	Alfredo Granado
+
+	Date:		09/30/2016
+
+	assigment:  index page 
+
+	Supporting Files: 
+
+*/
+
+
+
+html { box-sizing: border-box; }
+
+
+
+*, *:before, *:after { box-sizing: inherit; }
+
+
+
+/*body {
+
+  background: #fafafa;
+
+  font-family: "Roboto", sans-serif;
+
+  font-size: 14px;
+
+  margin: 0;
+text-decoration:none;
+
+}*/
+
+
+
+a { text-decoration: none; }
+
+
+
+.container {
+
+  width: 1000px;
+
+  margin: auto;
+
+}
+
+
+
+/*h1 { text-align:center; margin-top:150px;}*/
+
+
+
+/* Navigation Styles */
+
+
+
+
+/* here is where my body start */
+
+body {
+
+	width: 85%; 
+
+	margin: auto;
+
+	background-color: #ecf5f5;
+
+    font-family:'Arial Rounded MT';
+
+    color: #1A1C2B
+
+    	}
+
+
+
+
+
+/* header starts here*/
+
+header {
+
+	color: #e7ece6;
+
+	width: 100%;
+
+	background-color: #4484ce;
+
+	margin: 0px auto;
+
+    position:relative;
+
+    top:10px;
+
+}
+
+
+
+.HeaderTex{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+	
+
+ #HeaderH1{
+
+   display:inline-block;
+
+   clear:both;
+
+   border-style:hidden;
+
+   padding: 0px;
+
+   margin: 0px 50px 4px 10px;
+
+   
+
+}
+
+  #HeaderH2 {
+
+   display:inline-block;
+
+   clear:both;
+
+   border-style:hidden;
+
+   padding: 0px;
+
+   margin: auto;
+
+   margin: 4px 3px 4px 350px;
+
+ 
+
+
+
+}
+
+  #HeaderH21 {
+
+   display:inline-block;
+
+   clear:both;
+
+   border-style:hidden;
+
+   padding: 0px;
+
+   margin: auto;
+
+   margin: 4px 100px 4px 40px;
+
+    
+
+}
+
+  #HeaderH22 {
+
+   display:inline-block;
+
+   clear:both;
+
+   float: right;
+
+   border-style:hidden;
+
+   padding: 0px;
+
+   margin: auto;
+
+   margin: 4px 10px 10px 40px;
+
+    
+
+}
+
+  
+
+  /*here start my Nav */	
+
+
+
+nav { 
+background: #2ba0db;
+text-decoration:none; }
+
+
+
+nav ul {
+
+  font-size: 0;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+
+nav ul li {
+
+  display: inline-block;
+
+  position: relative;
+
+}
+
+
+
+nav ul li a {
+
+  color: #fff;
+
+  display: block;
+
+  font-size: 14px;
+
+  padding: 15px 14px;
+
+  transition: 0.3s linear;
+text-decoration:none;
+
+}
+
+
+
+nav ul li:hover { background: #7fffd4; }
+
+
+
+nav ul li ul {
+
+  border-bottom: 5px solid #2ba0db;
+
+  display: none;
+
+  position: absolute;
+
+  width: 250px;
+
+}
+
+
+
+nav ul li ul li {
+
+  border-top: 1px solid #444;
+
+  display: block;
+
+}
+
+
+
+nav ul li ul li:first-child { border-top: none; }
+
+
+
+nav ul li ul li a {
+
+  background: #4484ce;
+
+  display: block;
+
+  padding: 10px 14px;
+text-decoration:none;
+
+}
+
+
+
+nav ul li ul li a:hover { background: #7fffd4;
+text-decoration:none; }
+
+
+
+nav .fa.fa-angle-down { margin-left: 6px; }
+
+
+
+/*nav {
+
+	position: relative;
+
+    bottom: 0px;
+
+    right: 0px;
+
+    background-color:#77c9d4;
+
+	}
+
+
+
+.NavUl ul {
+
+    list-style-type: none;
+
+     overflow: hidden;
+
+   
+
+}
+
+.NavUl li{
+
+    float:left;
+
+}
+
+
+
+.NavUl li a{
+
+    display: inline-block;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+
+    
+
+}
+
+.NavUl li a:hover {
+
+    background-color: #008F95;
+
+}*/
+
+
+
+
+
+/*here start my aside */	
+
+aside {
+
+	width:25%;
+
+    clear:right;
+
+	padding: 20px 20px 20px 15px;
+
+	height: auto;
+
+	float: right;
+
+	background-color: aquamarine;
+
+    margin:0px 0px 20px;
+
+    color: #1A1C2B ;
+
+
+
+}
+
+
+
+aside p{
+
+     text-indent:1em;  
+
+    text-align:justify;
+
+    margin:0px 15px 0px;
+
+   
+
+}
+
+
+
+aside ol ul li a{
+
+    display: inline-block;
+
+    color: darkslateblue;
+
+    text-align: center;
+
+    padding: 3px 6px;
+
+    text-decoration: none;
+
+}
+
+
+
+aside ol ul li a:hover {
+
+    background-color: #008F95;
+
+}
+
+
+
+
+
+ /*here start my Section */	
+
+section {
+
+	width: 70%;
+
+	padding: 20px 0px 0px 30px;
+
+	height: auto;
+
+    clear:left;
+
+	background-color: azure;
+
+    margin:0px 0px 0px 0px ;
+
+    text-indent:1em;
+
+    text-align:justify;
+
+    font-size: 14px;  
+
+
+
+}
+
+
+
+section p {
+
+    margin:0px 20px 20px;
+
+    padding: 0 0 10px;
+
+}
+
+
+
+
+
+	
+
+footer {
+
+	width: 100%;    
+
+	clear: both;
+
+    position: static;
+
+	background-color: #2e8bae; 
+
+	text-align: center;
+
+    bottom:0;
+
+ }
