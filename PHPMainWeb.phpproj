@@ -145,10 +145,7 @@
     <Folder Include="assignment06\Scripts\" />
     <Folder Include="assignment06\Styles\" />
     <Folder Include="assignment07" />
-    <Folder Include="assignment08" />
-    <Folder Include="assignment09" />
-    <Folder Include="assignment10" />
-    <Folder Include="assignment11" />
+    <Folder Include="projectrs\" />
     <Folder Include="final\" />
     <Folder Include="final\assets\" />
     <Folder Include="final\bootstrap\" />
@@ -376,6 +373,13 @@
     <Content Include="img\team\7.jpg" />
     <Content Include="img\team\8.jpg" />
     <Content Include="img\team\9.jpg" />
+    <Content Include="img\team\aaron-swift4.jpg" />
+    <Content Include="img\team\aaron5.jpg" />
+    <Content Include="img\team\Chris-Blount13.jpg" />
+    <Content Include="img\team\di-tran3.jpg" />
+    <Content Include="img\team\Jim-Jobe15.jpg" />
+    <Content Include="img\team\scott-wells1.jpg" />
+    <Content Include="img\team\thomas-boyer6.jpg" />
     <Content Include="img\testimonial\1.jpg" />
     <Content Include="img\testimonial\2.jpg" />
     <Content Include="img\testimonial\3.jpg" />
