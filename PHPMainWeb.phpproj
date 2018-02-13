@@ -160,7 +160,6 @@
     <Folder Include="img\" />
     <Folder Include="img\protfolio\" />
     <Folder Include="img\team\" />
-    <Folder Include="img\testimonial\" />
     <Folder Include="includes" />
     <Folder Include="js\" />
     <Folder Include="js\vendor\" />
@@ -330,7 +329,7 @@
     <Content Include="img\me-4.jpg" />
     <Content Include="img\me-dark.jpg" />
     <Content Include="img\me.jpg" />
-    <Content Include="img\menu-logo.png" />
+    <Content Include="img\menu-logo1.png" />
     <Content Include="img\next.png" />
     <Content Include="img\prev.png" />
     <Content Include="img\protfolio\1.jpg" />
@@ -377,11 +376,6 @@
     <Content Include="img\team\thomas-boyer6.jpg" />
     <Content Include="img\team\travis-tiller8.jpg" />
     <Content Include="img\team\tuan-tran17.jpg" />
-    <Content Include="img\testimonial\1.jpg" />
-    <Content Include="img\testimonial\2.jpg" />
-    <Content Include="img\testimonial\3.jpg" />
-    <Content Include="img\testimonial\bg-1.jpg" />
-    <Content Include="img\testimonial\bg-2.jpg" />
     <Content Include="index-teal.html" />
     <Content Include="JQuery\jquery-3.1.1.js" />
     <Content Include="js\bootstrap.min.js" />
